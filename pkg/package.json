@@ -1,0 +1,14 @@
+{
+  "name": "kepler-wgpu",
+  "version": "0.1.0",
+  "files": [
+    "kepler_wgpu_bg.wasm",
+    "kepler_wgpu.js",
+    "kepler_wgpu.d.ts"
+  ],
+  "module": "kepler_wgpu.js",
+  "types": "kepler_wgpu.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

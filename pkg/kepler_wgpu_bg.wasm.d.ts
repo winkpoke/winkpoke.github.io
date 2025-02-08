@@ -1,0 +1,33 @@
+/* tslint:disable */
+/* eslint-disable */
+export const memory: WebAssembly.Memory;
+export function parse_dcm_files_wasm(a: number): number;
+export function init(): void;
+export function run(a: number): number;
+export function __wbg_ctvolume_free(a: number, b: number): void;
+export function __wbg_dicomrepo_free(a: number, b: number): void;
+export function dicomrepo_get_all_patients(a: number): Array;
+export function dicomrepo_get_patient(a: number, b: number, c: number): Array;
+export function dicomrepo_get_studies_by_patient(a: number, b: number, c: number): Array;
+export function dicomrepo_get_series_by_study(a: number, b: number, c: number): Array;
+export function dicomrepo_get_images_by_series(a: number, b: number, c: number): Array;
+export function dicomrepo_generate_ct_volume(a: number, b: number, c: number): Array;
+export function load_data_from_repo_wasm(a: number, b: number): void;
+export function __wbindgen_malloc(a: number, b: number): number;
+export function __wbindgen_realloc(a: number, b: number, c: number, d: number): number;
+export const __wbindgen_export_2: WebAssembly.Table;
+export const __wbindgen_export_3: WebAssembly.Table;
+export function closure150_externref_shim(a: number, b: number, c: number): void;
+export function _dyn_core__ops__function__FnMut_____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__he68435b04de92038(a: number, b: number): void;
+export function closure155_externref_shim(a: number, b: number, c: number, d: number): void;
+export function closure158_externref_shim_multivalue_shim(a: number, b: number, c: number): Array;
+export function __externref_table_dealloc(a: number): void;
+export function closure1371_externref_shim(a: number, b: number, c: number): void;
+export function closure3141_externref_shim(a: number, b: number, c: number): void;
+export function _dyn_core__ops__function__FnMut_____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h0a6741edb9490d63(a: number, b: number): void;
+export function closure3223_externref_shim(a: number, b: number, c: number): void;
+export function __wbindgen_free(a: number, b: number, c: number): void;
+export function __externref_table_alloc(): number;
+export function __wbindgen_exn_store(a: number): void;
+export function closure3245_externref_shim(a: number, b: number, c: number, d: number): void;
+export function __wbindgen_start(): void;
