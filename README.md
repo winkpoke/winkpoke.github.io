@@ -1,2 +1,0 @@
-# winkpoke.github.io
-homepage
